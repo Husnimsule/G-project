@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=
+    "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+      <link rel="stylesheet" href=
+    "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity=
+    "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    
+    <title>VIOLA</title>
+    <link rel="stylesheet" href="./Css/style.css">
+</head>
+<body>
+<div>
+    <nav>
+    <div class="logo"> <img src="./image/Logo 5.jpg" alt=""></div> 
+      <div class="links">
+        <ul>
+            <li><a href=""> HOME</a></li>
+              <li><a href="">PRODUCTS</a></li>
+              <li><a  href="">ABOUT US</a></li>
+              <li><a href="">CONTACT US</a></li>
+              <li><a href="">CART</a></li>
+              <li><a class="active" href="">LOG IN</a></li>
+            </ul>
+          </div> 
+    </nav>
+     
+    <div class="fillform">
+      <h2>Create new account</h2>
+      <form action="">
+        Full name <br> 
+        <input type="text" name="Full name" value="Abel Delight"><br>
+        Email address <br>
+        <input type="email" name="" id="Email address" value="abeldelight201@gmail.com"><br>
+        Password<br>
+      <i class="bi bi-eye-slash" id="togglePassword" style="float:right; margin: 15px 50px -30px 0;"></i>
+          <input type="password" name="password" id="password" />
+          <br>
+          Confirm Password<br>
+          <input type="password" name="password" id="password" />
+          <i class="bi bi-eye-slash"
+            id="toggleComfirmPassword"></i><br>
+        <input class="checked" type="checkbox" name="Remember" value="Remember" checked> Remember me<br>
+
+        <br> 
+        <button type="submit">Create account</button>
+        <p>By clicking you are agreeing to our <a href="#"> term <span>and</span> conditions </a></p>
+    </form>
+
+    </div>
+
+ <div class="footer">
+  <div class="herb"><footer>2022 HEREBAL COMPANY. ALL RIGHT RESERVED </footer></div>
+<div class="img">
+<img src="./image/facebook (1).png" alt="">
+<img src="./image/instagram.png" alt="">
+<img src="./image/twitter.png" alt="">
+</div>
+</div>
+
+
+ 
+
+</div>
+<script>
+  const togglePassword = document
+    .querySelector('#togglePassword');
+
+  const password = document.querySelector('#password');
+
+  togglePassword.addEventListener('click', () => {
+
+    // Toggle the type attribute using
+    // getAttribure() method
+    const type = password
+      .getAttribute('type') === 'password' ?
+      'text' : 'password';
+      
+    password.setAttribute('type', type);
+
+    // Toggle the eye and bi-eye icon
+    this.classList.toggle('bi-eye');
+  });
+
+  
+</script>
+</body>
+</html>
