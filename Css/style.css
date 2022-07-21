@@ -66,6 +66,18 @@ font-family: 'Courier New', Courier, monospace;
     border-radius: 7%;
 } 
 
+@media screen and (min-width:270px) and (max-width:480px) {
+    .fillform{
+        align-items: center;
+        border: 1px solid #d80505;
+        width:40%;
+        height: 30%;
+        margin: 0% 0% 3% 35%;
+        padding:15px ;
+        border-radius: 7%;
+    } 
+}
+
     
 
 form{
@@ -203,6 +215,16 @@ margin: 0% 0% 0% 50%;
     width:120px;
     margin-top:10% ;
     margin-bottom:20% ;
+}
+@media screen and (min-width:270px) and (max-width:480px) {
+    .container{
+        background-color: rgb(255, 255, 255);
+        width:70%;
+        height: 50%; 
+        box-shadow:  0 0 5px rgb(179, 248, 75);
+        margin: 0% 0% 0% 15%;
+    }
+    
 }
  /* .GENUINE{
 display: inline; 
