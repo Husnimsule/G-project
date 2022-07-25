@@ -35,11 +35,13 @@
       
         <div class="navbar" id="navMenu">
           <i class="fa fa-times" onclick="hideMenu()"></i>
-          <p class="nav"><a class="active" href="index.html"> Home</a> </p>
+          <p class="nav"><a  href="index (2).html"> Home</a> </p>
           <p class="nav"><a href="#"> Products</a></p>
-          <p class="nav"><a href="#"> About Us</a></p>
+          <p class="nav"><a href="index.html"> About Us</a></p>
           <p class="nav"><a href="#"> Contact Us</a></p>
-          <p class="nav"><a href="Cart.html"> Cart</a></p>
+          <div class="cart-btn">
+              <a class="active" href="cart.html">cart<span class ="cart-quantity">0</span></a>
+          </div>
           <button class="btn login btn-outline-success" type="submit">LOGIN</button>
         </div>
 
@@ -64,7 +66,7 @@
     </div>
     <div class="soap2">
       <button>-</button>
-       <p>1</p> 
+       <p><b>1</b></p> 
        <button>+</button>
       </div>
     <div class="soap">
@@ -84,7 +86,7 @@
     </div>
     <div class="soap2">
       <button>-</button>
-       <p>1</p> 
+       <p><b>1</b></p> 
        <button>+</button>
       </div>
     <div class="soap">
@@ -105,7 +107,7 @@
             
                             <!-- product parts -->
 
-  <h2>Top selling Products</h2>
+  <h2 class="selling">Top selling Products</h2>
 <div class="flex row">
   <div class="col flux">
     <div class="a">
@@ -118,12 +120,11 @@
           
       </p>
              <span>N4500.00</span> 
-        <div>
-            <button class="btn bttnnn btn-outline-success" type="submit">Add to cart</button>
-            <button class="btn bttnnn white-btn btn-outline-success" type="submit">Buy now</button>
-    
+             <div class="card-2-card">
+              <button class="add-to-cart">Add to cart</button>
+              <button class="product-price">Buy now</button>
+            </div>
         </div>
-    </div>
   </div>
   <div class="col flux">
     <div class="a">
@@ -135,11 +136,11 @@
             your skin smooth and free from dark spots
         </p>
         <span>N2500.00</span> 
-        <div>
-            <button class="btn bttnnn btn-outline-success" type="submit">Add to cart</button>
-            <button class="btn bttnnn white-btn btn-outline-success" type="submit">Buy now</button>
-    
+        <div class="card-2-card">
+          <button class="add-to-cart">Add to cart</button>
+            <button class="product-price">Buy now</button>
         </div>
+
     </div>
   </div>
   <div class="col flux">
@@ -153,11 +154,12 @@
       </p>
 
         <span>N1500.00</span> 
-        <div>
-            <button class="btn bttnnn btn-outline-success" type="submit">Add to cart</button>
-            <button class="btn bttnnn white-btn btn-outline-success" type="submit">Buy now</button>
-    
+        <div class="card-2-card">
+
+           <button class="add-to-cart">Add to cart</button>
+            <button class="product-price">Buy now</button>
         </div>
+
     </div>
   </div>  
 </div>
@@ -283,7 +285,7 @@
   </div>
   <hr>
 
-</main>
+
 
 
 
@@ -353,17 +355,7 @@ opposite Federal High Court Minna, Nigerstate</p>
 </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
+<script src="js/schl.js"></script>
 
 </body>
 </html>

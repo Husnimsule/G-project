@@ -653,7 +653,7 @@ body{
     }
     .bttnnn{
         background-color: #46B069;
-        padding: 2% 5%;
+        padding: 1% 5%;
         font-size: 20px;
         border-radius:  35px;
         border: none !important;
@@ -806,13 +806,19 @@ body{
     }
     }
     .soap-con{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
          /* background-color: rgb(226, 28, 28);  */
-        box-shadow:  0 0 5px rgb(179, 248, 75);
+        box-shadow:  0 0 5px rgb(244, 247, 240);
         gap: 15%;
-        justify-content: center;
+        
      }
 
+     .selling{
+        font-style: bold;
+        margin:0px 0px 0px 95px;
+        font-weight: 500;
+     }
     /* .stn{
         flex-basis: 35%;
         margin:0px 0px 0px 10%;
@@ -825,6 +831,7 @@ body{
     }
     .soap{
         margin: 30px 0;
+        width: fit-content;
     }
     .soap2 button{
         background-color: #46B069;
@@ -924,7 +931,7 @@ body{
         padding: 0 70px 0 20px;
     }
     .total2{
-        color: #31c46e;
+        color: #46B069;
         font-size: 45px;
         font-weight: 800;
         
@@ -939,10 +946,42 @@ body{
     border: 4px solid #46B069;
     } */
 
+
    #search{ background-image: url(../image/Vector\ \(2\).png);
     background-repeat: no-repeat;
     background-position: 95%;
 }
 
+.cart-quantity{
+    color: white;
+    background-color: #46B069;
+    position: absolute;
+    margin: -.3em 19em 0 0;
+    right: 0;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    width:20px;
+}
+.card-2-card{
+    display: flex;
+    gap: 30px;
+}
+.add-to-cart{
+    background-color: #46B069;
+    color: #ffffff;
+    border-radius:100px;
+    border: 1px solid #46B069;
+    width: 40%;
+
+}
+.product-price{
+    background-color: #ffffff;
+    color: #46B069;
+    border-radius:100px;
+    border: 1px solid #46B069;
+    width: 40%;
+}
 
 
