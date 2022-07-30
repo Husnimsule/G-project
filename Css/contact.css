@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 20px;
+    max-width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Poppins';
+}
+
+
+
+@media screen and (min-width:1024px){
+
+    .container{
+        width: 100vw !important;
+        height: 1000px;
+        padding: 10%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../images/photo-1596524430615-b46475ddff6e\ 1.png);
+    }
+    
+    .small-con{
+        background-color: #ededede0;
+        height: 600px;
+        padding: 5%;
+        border-radius: 10px;
+    }
+    
+    form{
+        width: 50%;
+        padding:  7% 2%;
+    }
+    
+    .con-input{
+        border: none;
+        border-bottom: 1px solid #00000030;
+        line-height: 32px;
+        background-color: transparent;
+        border-radius: 0;
+        font-size: 18px;
+        width: 130%;
+        margin-bottom: 5%;
+        outline: none;
+    }
+    
+    .message{
+        border: 1px solid #00000030;
+        background-color: transparent;
+        border-radius: 10px !important;
+        line-height: 32px;
+        font-size: 18px;
+        border-radius: 0;
+        width: 100%;
+        height: 150px;
+        margin-top: 5%;
+        padding-left: 5%;
+    }
+    
+    label{
+        margin-bottom: 4%;
+        font-weight: 700;
+    }
+    
+    .add{
+        padding:  10%;
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .address{
+        width: 50%;
+        border-left: 1px solid #00000030;
+    }
+    .add img{
+        margin-right: 10%;
+        margin-top: 1%;
+        width: 20px;
+        height: 20px;
+    }
+    
+    .add .x{
+        margin-top: 5%;
+    }
+}
+
+
+
+
+
+@media screen and (min-width:801px) and (max-width: 1023px){
+    .container{
+        width: 100vw !important;
+        height: 1000px;
+        padding: 10%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../images/photo-1596524430615-b46475ddff6e\ 1.png);
+    }
+    
+    .small-con{
+        background-color: #ededede0;
+        height: 900px;
+        padding: 5%;
+        border-radius: 10px;
+    }
+    
+    form{
+        width: 100%;
+        padding:   5%;
+    }
+
+    .con-input{
+        border: none;
+        border-bottom: 1px solid #00000030;
+        line-height: 32px;
+        background-color: transparent;
+        border-radius: 0;
+        font-size: 18px;
+        width: 100%;
+        margin-bottom: 5%;
+        outline: none;
+    }
+    
+    .message{
+        border: 1px solid #00000030;
+        background-color: transparent;
+        border-radius: 10px !important;
+        line-height: 32px;
+        font-size: 18px;
+        border-radius: 0;
+        width: 100%;
+        height: 150px;
+        margin-top: 5%;
+    }
+    
+    label{
+        margin-bottom: 4%;
+        font-weight: 700;
+
+    }
+    
+    .add{
+        padding: 2% 5%;
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .address{
+        width: 100%;
+    }
+    .add img{
+        margin-right: 10%;
+        margin-top: 1%;
+        width: 20px;
+        height: 20px;
+    }
+    
+    .add .x{
+        margin-top: 5%;
+    }
+
+    .flexx{
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .flexxx{
+        display: flex;
+    }
+}  
+
+
+
+
+@media screen and (max-width: 800px){
+    .container{
+        width: 100vw !important;
+        height: 1000px;
+        padding: 10%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../images/photo-1596524430615-b46475ddff6e\ 1.png);
+    }
+    
+    .small-con{
+        background-color: #ededede0;
+        height: 900px;
+        padding: 5%;
+        border-radius: 10px;
+    }
+    
+    form{
+        width: 100%;
+        padding:   5%;
+    }
+
+    .con-input{
+        border: none;
+        border-bottom: 1px solid #00000030;
+        line-height: 32px;
+        background-color: transparent;
+        border-radius: 0;
+        font-size: 18px;
+        width: 100%;
+        margin-bottom: 5%;
+        outline: none;
+    }
+    
+    .message{
+        border: 1px solid #00000030;
+        background-color: transparent;
+        border-radius: 10px !important;
+        line-height: 32px;
+        font-size: 18px;
+        border-radius: 0;
+        width: 100%;
+        height: 150px;
+        margin-top: 5%;
+    }
+    
+    label{
+        margin-bottom: 4%;
+        font-weight: 700;
+
+    }
+    
+    .add{
+        padding: 2% 5%;
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .address{
+        width: 100%;
+    }
+    .add img{
+        margin-right: 10%;
+        margin-top: 1%;
+        width: 20px;
+        height: 20px;
+    }
+    
+    .add .x{
+        margin-top: 5%;
+    }
+}
